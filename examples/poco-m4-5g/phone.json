@@ -1,0 +1,14 @@
+{
+  "device": "POCO M4 5G",
+  "brand": "POCO / Xiaomi",
+  "variant": "6GB RAM / 128GB Storage",
+  "model_numbers": ["22041219I", "22041219G"],
+  "codename": "light",
+  "soc": "MediaTek Dimensity 700 5G (MT6833, 7nm)",
+  "gpu": "ARM Mali-G57 MC2",
+  "os": "MIUI 13 / MIUI 14 / Xiaomi HyperOS (Android 12, 13, 14)",
+  "display": "6.58-inch FHD+ 90Hz AdaptiveSync IPS LCD (2408x1080)",
+  "battery": "5000 mAh (18W fast charging)",
+  "default_launcher": "com.mi.android.globallauncher",
+  "notes": "Safe debloat strips MIUI System Ads (MSA), Analytics, Daemon, Joyose, GetApps, Wallpaper Carousel, and third-party trackers while preserving POCO Launcher, camera, 5G connectivity, and critical security frameworks."
+}

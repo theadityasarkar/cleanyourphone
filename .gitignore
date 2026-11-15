@@ -1,0 +1,15 @@
+# Virtual environments & python caches
+__pycache__/
+*.pyc
+venv/
+tools/venv/
+
+# Downloaded platform tools
+tools/platform-tools/
+tools/platform-tools.zip
+
+# Backups & local records
+backup/
+backup_*/
+*.png
+.cleanyourphone/

@@ -1,0 +1,46 @@
+# ==============================================================================
+# CleanYourPhone: Safe Debloat List for POCO M4 5G (6GB/128GB)
+# Device: POCO M4 5G (Model 22041219I / 22041219G, Codename: light)
+# OS: MIUI 13 / MIUI 14 / Xiaomi HyperOS (Android 12, 13, 14)
+#
+# All packages here are 100% safe to disable. No root, no bootloader unlock required.
+# Packages are disabled for user 0 (pm disable-user --user 0), never uninstalled.
+#
+# Apply:  .\tools\disable.ps1 examples\poco-m4-5g\debloat-safe.txt
+# Undo:   .\tools\restore.ps1 examples\poco-m4-5g\debloat-safe.txt
+# ==============================================================================
+
+# --- Xiaomi & MIUI Telemetry, Tracking, and System Ads ---
+com.miui.msa.global                     # MIUI System Ads (MSA) - primary push and in-app ad engine
+com.miui.analytics                      # Analytics framework tracking user actions and app launches
+com.miui.daemon                         # Background daemon transmitting hardware, device, and usage logs
+com.xiaomi.joyose                       # Analytics and aggressive throttling daemon (causes frame drops in games)
+com.miui.bugreport                      # MIUI automatic bug and diagnostic log uploader
+com.miui.miservice                      # Services and Feedback telemetry client
+com.miui.yellowpage                     # Yellow Pages - identifies caller numbers and serves business ads
+com.miui.hybrid                         # Quick Apps / Hybrid engine - serves sponsored mini-apps and banner ads
+com.miui.hybrid.accessory               # Quick Apps accessory support provider
+com.miui.android.fashiongallery         # Wallpaper Carousel / Glance - lock screen sponsored ads and news feed
+
+# --- Xiaomi Preloaded Apps & App Stores ---
+com.xiaomi.mipicks                      # GetApps / Mi Picks - Xiaomi's redundant app store pushing spam notifications
+com.mi.globalbrowser                    # Mi Browser / Mint Browser - ad-heavy browser with telemetry
+com.miui.videoplayer                    # Mi Video - media player that loads trending videos, ads, and feeds
+com.miui.player                         # Mi Music - integrated with ad-supported streaming feeds
+com.miui.cleanmaster                    # Clean Master engine - cleaner app with promos and background monitoring
+com.xiaomi.midrop                       # ShareMe / Mi Drop - file sharing app with promos and notifications
+com.xiaomi.glgm                         # Xiaomi Game Center / Games app
+com.miui.weather2                       # Stock Weather app with ad recommendations
+
+# --- Financial, Payment, and Loan Bloatware ---
+com.xiaomi.payment                      # Xiaomi Pay framework
+com.mipay.wallet.in                     # Mi Pay India / Mi Wallet
+com.mipay.wallet.global                 # Mi Pay Global
+
+# --- Third-Party Partner Bloat & Background Services ---
+com.facebook.katana                     # Facebook app preloaded stub
+com.facebook.system                     # Facebook App Installer system service
+com.facebook.appmanager                 # Facebook App Manager background updater
+com.facebook.services                   # Facebook background telemetry daemon
+com.netflix.partner.activation          # Netflix partner activation stub
+com.amazon.appmanager                   # Amazon App Manager background service

@@ -1,0 +1,28 @@
+# ==============================================================================
+# CleanYourPhone: Optional Debloat List for POCO M4 5G
+# Review and comment out (#) any app you actively use before applying!
+#
+# Apply:  .\tools\disable.ps1 examples\poco-m4-5g\debloat-optional.txt
+# Undo:   .\tools\restore.ps1 examples\poco-m4-5g\debloat-optional.txt
+# ==============================================================================
+
+# --- Xiaomi Cloud Services (Disable if you only use Google Drive/Google Photos) ---
+com.miui.cloudservice                   # Xiaomi Cloud main service
+com.miui.cloudbackup                    # Cloud backup engine
+com.miui.micloudsync                    # Cloud sync service
+com.xiaomi.micloud.sdk                  # Mi Cloud SDK
+
+# --- Xiaomi Stock Utilities (Disable if you use Google / 3rd party alternatives) ---
+com.miui.notes                          # Mi Notes (replace with Google Keep or Notion)
+com.miui.compass                        # Mi Compass
+com.miui.calculator                     # Mi Calculator (replace with Google Calculator)
+com.miui.soundrecorder                  # Mi Sound Recorder
+com.miui.screenrecorder                 # Mi Screen Recorder
+
+# --- Google Preloaded Apps (Disable if unused or using web/alternatives) ---
+com.google.android.apps.tachyon         # Google Meet / Duo
+com.google.android.videos               # Google TV / Play Movies & TV
+com.google.android.apps.youtube.music   # YouTube Music
+com.google.android.apps.docs            # Google Drive
+com.google.android.apps.wellbeing       # Digital Wellbeing (disabling saves background battery/RAM)
+com.google.android.feedback             # Google Feedback crash reporting client

@@ -1,0 +1,4 @@
+adb-shell>=0.4.4
+rsa>=4.9.1
+cryptography>=42.0.0
+colorama>=0.4.6
